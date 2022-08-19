@@ -1,0 +1,19 @@
+.banner{
+   
+    border: 1px solid rgba(0, 0, 0, 0.54);
+filter: blur(0px);
+background-image: url("./sitebook/restaurant_tables_interior_206807_2560x1440.jpg");
+max-height: 293px;
+left: calc(50% - 1440px/2 + 1px);
+top: calc(50% - 293px/2 - 719px);
+}
+@media screen and (min-device-width: 100px) and (max-device-width: 989px) { 
+    .detail{
+        text-align: center;
+    }
+    
+.banner{
+    background:  rgba(139, 67, 67, 1);
+}
+}
+

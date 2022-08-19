@@ -1,0 +1,52 @@
+.main_banner{
+    background-image: url("../sitebook/restaurant_tables_interior_206807_2560x1440.jpg");
+   
+    background-size: cover;
+}
+.arrange{
+    background:#D9D9D9;
+    justify-Content:'center';
+    place-items:'center';
+    border-radius: 0px;
+    padding: 0px;
+    margin:0px;
+}
+.right_search{
+    place-items:'center';
+    background:grey;
+    justify-Content:'center';
+    place-items:'center';
+    border-radius:'8px';
+    padding:'5px';
+}
+.buttonone{
+    justify-content: end;
+    width:'100%';
+}
+.arrangeone{
+    border-top-left-radius:8px ;
+    border-bottom-left-radius: 8px;
+    border-right:2px solid grey ;
+}
+.arrangetwo{
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+    border-left:2px solid grey ;
+}
+
+
+
+@media screen and (max-width: 987px) {
+    
+        .arrange{
+            background:#D9D9D9;
+            justify-Content:'center';
+            place-items:'center';
+            border-radius: 8px;
+            padding: 0px;
+            margin:7px;
+        }
+  .main_banner{
+    background: rgba(3, 94, 160, 0.54);
+  }
+    }

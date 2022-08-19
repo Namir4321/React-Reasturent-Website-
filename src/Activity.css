@@ -1,0 +1,16 @@
+.list-group{
+    border: none;
+}
+.list-group-item{
+    border: none;
+    margin:5px;
+}
+.box{
+    marginTop:15px;
+    padding-top: 10px;
+    padding-bottom: 300px;
+ width: 100%;
+    border:1px solid grey;
+    border-radius: 10px;
+
+}
